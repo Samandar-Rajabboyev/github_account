@@ -307,7 +307,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(width: 4),
                 Text(
-                  (repo.stargazersCount.toString() ?? 'Dart'),
+                  (repo.stargazersCount.toString()),
                   style: const TextStyle(
                     color: textColor,
                     fontSize: 12,
